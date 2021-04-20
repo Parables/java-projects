@@ -1,13 +1,10 @@
-package com.studio.dev.parasoft;
-
-
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class _202145387 {
   private static final Scanner scanner = new Scanner(System.in);
   private static final String FILENAME = "Random Numbers.txt";
   private static final Random random = new Random();
@@ -45,6 +42,7 @@ public class Main {
           break;
         case 2:
           findUser("", true);
+          continueSession();
           break;
         default:
           print("Invalid option", true);
